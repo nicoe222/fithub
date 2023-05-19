@@ -45,8 +45,12 @@ const Navbar = () => {
       >
         <div className="px-10 flex items-center justify-between w-full">
           <div className="flex space-x-4 w-full justify-end cursor-pointer">
-            <p className="text-sm text-white font-semibold">Free Trial</p>
-            <p className="text-white text-sm font-semibold">Partnership</p>
+            <p className="text-sm text-white font-semibold hover:underline">
+              Free Trial
+            </p>
+            <p className="text-white text-sm font-semibold hover:underline">
+              Partnership
+            </p>
           </div>
         </div>
       </div>
@@ -55,8 +59,8 @@ const Navbar = () => {
         className={classNames(
           navBarDrop
             ? `fixed z-50 w-full top-0 ease-in-out duration-1000 delay-300`
-            : `w-full top-[-100%] ease-in-out duration-1000 delay-300 bg-sky-500/60`,
-          `bg-black/30 backdrop-blur-lg px-5 sm:px-28`
+            : `w-full top-[-100%] ease-in-out duration-1000 delay-300 bg-sky-500`,
+          `bg-sky-500/30 backdrop-blur-lg px-5 sm:px-28`
         )}
       >
         <div className="flex flex-wrap items-center justify-between mx-auto dark:bg-slate-800 w-full">
