@@ -15,6 +15,8 @@ module.exports = {
         fasilitas: "url('../public/assets/fasilitas.jpg')",
         event: "url('../public/assets/eventfh.jpg')",
         owngym: "url('../public/assets/owngym.jpg')",
+        corporate: "url('../public/assets/corporate.jpg')",
+        freetrial: "url('../public/assets/free-trial.png')",
       },
       colors: {
         blues: "#6EC1E4",
@@ -23,8 +25,5 @@ module.exports = {
       },
     },
   },
-  plugins: [
-    require("@headlessui/tailwindcss"),
-    require("@headlessui/tailwindcss"),
-  ],
+  plugins: [require("@headlessui/tailwindcss"), require("daisyui")],
 };
