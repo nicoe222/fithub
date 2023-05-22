@@ -5,7 +5,7 @@ const page = () => {
     <div className="bg-freetrial py-12 space-y-8">
       <div className="pt-12 w-full justify-center flex">
         <h1 className="md:text-7xl text-3xl font-bold text-white ">
-          Let's Try the club!
+          Lets Try the club!
         </h1>
       </div>
       <div className="w-full px-4 md:justify-center flex">
