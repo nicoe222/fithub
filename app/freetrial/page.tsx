@@ -15,7 +15,7 @@ const page = () => {
               REDEEM FREE TRIAL ANDA!
             </h1>
           </div>
-          {/* BATAS */}
+
           <div>
             <label
               htmlFor="countries"
@@ -34,7 +34,7 @@ const page = () => {
               <option value="DE">Germany</option>
             </select>
           </div>
-          {/* BATAS */}
+
           <div>
             <label
               htmlFor="countries"
@@ -182,12 +182,12 @@ const page = () => {
               htmlFor="link-checkbox"
               className="ml-2 text-sm font-medium text-gray-700 dark:text-gray-300"
             >
-              I’ve read and agree to{" "}
+              I’ve read and agree to
               <a
                 href="#"
                 className="text-blue-600 dark:text-blue-500 hover:underline"
               >
-                Data Privacy{" "}
+                Data Privacy
               </a>
               Policy.
             </label>
