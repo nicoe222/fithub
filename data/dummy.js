@@ -4,15 +4,15 @@ export const links = [
     links: [
       {
         name: "Membership",
-        url: "/profile/aboutus",
+        url: "/membership",
       },
       {
         name: "Personal Trainer",
-        url: "/profile/mutu",
+        url: "/trainer",
       },
       {
         name: "Kelas",
-        url: "/profile/organisasi",
+        url: "/kelas",
       },
     ],
   },
@@ -21,11 +21,15 @@ export const links = [
     links: [
       {
         name: "Jadwal",
-        url: "/layanan/rawat-jalan",
+        url: "/jadwal",
       },
       {
         name: "Lokasi",
-        url: "/layanan/rawat-inap",
+        url: "/lokasi",
+      },
+      {
+        name: "Fasilitas",
+        url: "/fasilitas",
       },
     ],
   },
@@ -37,7 +41,7 @@ export const links1 = [
     links: [
       {
         name: "Buka Gym Sendiri",
-        url: "/profile/aboutus",
+        url: "/owngym",
       },
       {
         name: "Korporasi Membership",

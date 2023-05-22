@@ -126,7 +126,7 @@ const Navbar = () => {
                 </Menu>
               ))}
               <li className="text-sm tracking-tighter font-bold uppercase text-white">
-                <Link href="">About Us</Link>
+                <Link href="/aboutus">About Us</Link>
               </li>
             </ul>
           </div>

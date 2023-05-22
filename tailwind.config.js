@@ -9,13 +9,15 @@ module.exports = {
     extend: {
       backgroundImage: {
         sections: "url('../public/assets/ptrainer.jpg')",
-        jadwal: "url('../public/assets/jadwal.png')",
+        jadwal: "url('../public/assets/Jadwal.png')",
         membership: "url('../public/assets/membership.jpg')",
         lokasi: "url('../public/assets/lokasi.jpg')",
         fasilitas: "url('../public/assets/fasilitas.jpg')",
         event: "url('../public/assets/eventfh.jpg')",
         owngym: "url('../public/assets/owngym.jpg')",
         corporate: "url('../public/assets/corporate.jpg')",
+        partnership: "url('../public/assets/partnership.jpg')",
+        aboutus: "url('../public/assets/aboutus.jpg')",
         freetrial: "url('../public/assets/free-trial.png')",
       },
       colors: {
