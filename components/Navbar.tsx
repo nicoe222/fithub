@@ -316,9 +316,80 @@ const Navbar = () => {
                   </Menu>
                 ))}
 
+                {links1.map((item) => (
+                  <Menu
+                    as="div"
+                    className="focus:outline-none"
+                    key={item.title}
+                  >
+                    {({ open }) => (
+                      <>
+                        <div className="flex w-full">
+                          <Menu.Button className="flex justify-between items-center w-full">
+                            <div className="py-2">
+                              <span className="uppercase text-sm py-4">
+                                {item.title}
+                              </span>
+                            </div>
+
+                            <div>
+                              {open ? (
+                                <ChevronUpIcon
+                                  className="h-5 w-5 text-gray-700 dark:text-gray-50 hover:text-violet-100"
+                                  aria-hidden="true"
+                                />
+                              ) : (
+                                <ChevronDownIcon
+                                  className="h-5 w-5 text-gray-700 dark:text-gray-50 hover:text-violet-100"
+                                  aria-hidden="true"
+                                />
+                              )}
+                            </div>
+                          </Menu.Button>
+                        </div>
+
+                        <Transition
+                          as={Fragment}
+                          enter="transition ease-out duration-100"
+                          enterFrom="transform opacity-0 scale-95"
+                          enterTo="transform opacity-100 scale-100"
+                          leave="transition ease-in duration-75"
+                          leaveFrom="transform opacity-100 scale-100"
+                          leaveTo="transform opacity-0 scale-95"
+                        >
+                          <Menu.Items>
+                            <div className="">
+                              {item.links.map((item) => (
+                                <Menu.Item key={item.name}>
+                                  {({ active }) => (
+                                    <button
+                                      className={`${
+                                        active
+                                          ? "text-gray-900 dark:text-gray-50"
+                                          : "text-gray-900 dark:text-gray-50"
+                                      } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                                    >
+                                      <Link
+                                        href={item.url}
+                                        onClick={() => setNav(false)}
+                                      >
+                                        {item.name}
+                                      </Link>
+                                    </button>
+                                  )}
+                                </Menu.Item>
+                              ))}
+                            </div>
+                          </Menu.Items>
+                        </Transition>
+                      </>
+                    )}
+                  </Menu>
+                ))}
+
                 <Link href="/kontak">
-                  <li onClick={() => setNav(false)} className=" text-sm py-2">
-                    Kontak Kami
+                  <li onClick={() => setNav(false)} className="text-sm py-2">
+                    About Us
                   </li>
                 </Link>
               </ul>

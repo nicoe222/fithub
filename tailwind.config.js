@@ -24,6 +24,7 @@ module.exports = {
         blues: "#6EC1E4",
         judul: "#143650f5",
         juduls: "#f8d355",
+        kelas: "#143650",
       },
     },
   },

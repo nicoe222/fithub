@@ -44,6 +44,24 @@ const page = () => {
             />
           </div>
         </div>
+        <div className="grid grid-cols-4 gap-4">
+          <div className="bg-kelas p-4 text-white drop-shadow-lg flex flex-col justify-center w-full text-center space-y-8 rounded-md">
+            <h1 className="text-5xl font-bold">50k+</h1>
+            <p className="text-3xl font-semibold">ACTIVE USERS</p>
+          </div>
+          <div className="bg-kelas p-4 text-white drop-shadow-lg flex flex-col justify-center w-full text-center space-y-8 rounded-md">
+            <h1 className="text-5xl font-bold">300</h1>
+            <p className="text-3xl font-semibold">TRAINERS</p>
+          </div>
+          <div className="bg-kelas p-4 text-white drop-shadow-lg flex flex-col justify-center w-full text-center space-y-8 rounded-md">
+            <h1 className="text-5xl font-bold">50+</h1>
+            <p className="text-3xl font-semibold">CLUBS</p>
+          </div>
+          <div className="bg-kelas p-4 text-white drop-shadow-lg flex flex-col justify-center w-full text-center space-y-8 rounded-md">
+            <h1 className="text-5xl font-bold">15</h1>
+            <p className="text-3xl font-semibold">CITIES</p>
+          </div>
+        </div>
       </div>
     </div>
   );

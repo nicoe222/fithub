@@ -3,6 +3,7 @@ import React from "react";
 import footer from "../public/assets/footer.png";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiFillMail, AiOutlineMail } from "react-icons/ai";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -41,24 +42,27 @@ const Footer = () => {
           </a>
           <ul className="flex flex-wrap mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
+              <a
+                href="/termscondition"
+                className="mr-4 hover:underline md:mr-6 "
+              >
                 Terms And Condition
               </a>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6">
+              <Link href="/event" className="mr-4 hover:underline md:mr-6">
                 Event
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">
+              <Link href="/karir" className="mr-4 hover:underline md:mr-6 ">
                 Karir
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link href="/faq" className="hover:underline">
                 FAQ
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
