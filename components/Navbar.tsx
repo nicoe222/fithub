@@ -130,11 +130,13 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          {/* LOGO */}
           <div>
             <Link href="/">
               <Image src={logo} alt={"Logo"} width={62} height={50} />
             </Link>
           </div>
+          {/* LOGO */}
           <div>
             <div
               className="hidden w-full md:block md:w-auto dark:bg-slate-800"
@@ -171,8 +173,8 @@ const Navbar = () => {
                           leaveTo="transform opacity-0 scale-95"
                         >
                           <Menu.Items
-                            className="absolute z-50 mt-2 w-fit origin-top-right divide-y 
-              divide-gray-100 rounded-md bg-blues dark:bg-slate-700 shadow-lg  focus:outline-none"
+                            className="absolute z-50 mt-2 w-fit origin-top-right divide-y divide-gray-100 rounded-md 
+                          bg-blues dark:bg-slate-700 shadow-lg focus:outline-none"
                           >
                             <div className="p-1">
                               {item.links.map((link) => (

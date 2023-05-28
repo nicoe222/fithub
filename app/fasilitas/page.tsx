@@ -74,7 +74,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 mx-auto gap-4 my-12 space-y-4 content-center w-full bg-red-300">
+        <div className="grid grid-cols-2 md:grid-cols-3 mx-auto gap-4 my-12 space-y-4 content-center w-full">
           <div className="flex items-center space-x-4">
             <Image src={waits} alt="" />
             <h1 className="text-2xl font-bold text-gray-500">RUANG TUNGGU</h1>
